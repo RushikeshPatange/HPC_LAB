@@ -19,7 +19,7 @@ int main()
         c[i] = a[i] + b[i];
     }
     end = omp_get_wtime();
-    printf("Vector Scalar Addition\n");
+    printf("Vector Vector Addition\n");
     for (int i = 0; i < 200; i++)
     {
         printf("c[%d] = %d\n", i, c[i]);
